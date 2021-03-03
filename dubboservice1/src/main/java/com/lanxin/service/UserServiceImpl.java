@@ -8,6 +8,6 @@ import org.springframework.stereotype.Component;
 public class UserServiceImpl implements UserService{
 
     public String hello(String name) {
-        return "hello "+name;
+        return "hello1 "+name;
     }
 }
